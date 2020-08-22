@@ -1,0 +1,19 @@
+.product-colors {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.product-card {
+  position: relative;
+}
+.button-compare {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  display: none;
+}
+.product-card:hover .button-compare {
+  display: block;
+  cursor: pointer;
+}
